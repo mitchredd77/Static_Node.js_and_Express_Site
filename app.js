@@ -36,20 +36,19 @@ app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
   next(err);
-  console.log("There has been a 404 error!");
 });
 // Error handling middleware
 app.use(function(err, req, res, next) {
   // Set status code based on error (or default to 500)
   let status = err.status || 500;
-
+  console.log(`There has been an error: ${err.message}`);
   // Render appropriate template based on status code
   let template = status === 404 ? 'page-not-found.pug' : 'error';
   res.locals.error = err;
   res.status(500);
-  console.log("There has been an error!");
   res.render(template);
 });
+
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
 });
