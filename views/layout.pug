@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='/static/images/Profile_Pic_4_7_23.jpg', alt='Profile Picture')
+        .dev-intro-box
+
+          //- Replace with your name
+          h5 Mitchell Reddoch
+
+          //- Replace with description of who you are, what you do, and why you are so awesome
+          p Leveraging my experience as a Director of Information Technology in healthcare, I combined my existing 
+            Python development skills (honed through real-world healthcare applications) with JavaScript to create 
+            even more powerful solutions. This diverse skillset allows me to bridge the gap between business needs 
+            and technical implementation.
+
+          //- Add path from your '/about' route handler to the href below
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          //- Replace with your name — this is for the mobile layout
+          span Mitchell Reddoch
+
+      block content
+
+  script(src='/static/js/script.js')

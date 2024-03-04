@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "Random Phrase Generator",
+      "description": "Program cycles through quotes randomly, printing the quote and source to the screen. If the quote has a citation and/or year, it will also be displated. The background color will change when the quote changes.",
+      "technologies": ["Arrays", 
+                       "HTML", 
+                       "CSS",
+                       "Random Numbers",
+                       "Functions"
+                      ],
+      "live_link": "https://github.com/mitchredd77/random_phrase",
+      "github_link": "https://github.com/mitchredd77/random_phrase",
+      "image_urls": [
+        "/static/images/Project_1_Pic1_edited.PNG", 
+        "/static/images/Project_1_Pic2_edited.PNG"
+      ]
+    },
+    {
+      "id": "1",
+      "project_name": "Phrase Hunter",
+      "description": "A game where a player attempt to guess the phrase of empty letters on the screen",
+      "technologies": ["Object-Oriented Programming", 
+                       "JavaScript", 
+                       "HTML", 
+                       "CSS"],
+      "live_link": "https://github.com/mitchredd77/JS_Phrase_Hunter/tree/main",
+      "github_link": "https://github.com/mitchredd77/JS_Phrase_Hunter.git",
+      "image_urls": [
+        "/static/images/Project_4_Pic1_edited.PNG", 
+        "/static/images/Project_4_Pic2.PNG"
+      ]
+    }
+  ]
+}
