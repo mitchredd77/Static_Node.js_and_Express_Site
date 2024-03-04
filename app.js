@@ -24,7 +24,7 @@ app.get('/project/:id', function(req, res, next) {
   const projectId = req.params.id;
   const project = projects.find(project => project.id === projectId);
 
-  // Check if project is found, otherwise handle error (optional)
+  // Check if project is found, otherwise handle error 
   if (!project) {
     next (new Error('Project not found'));
   }
