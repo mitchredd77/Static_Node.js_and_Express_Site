@@ -14,16 +14,10 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
       each project in projects
-        
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
+      
         .cell
-          a(href=project.github_link)
-            img.thumbnail(src=project.image_urls[0], alt="${project.project_name} picture")
+          a(href=`/project/${project.id}`)
+            img.thumbnail.shiny-border(src=project.image_urls[0], alt="${project.project_name} picture")
             h5 #{project.project_name}
 

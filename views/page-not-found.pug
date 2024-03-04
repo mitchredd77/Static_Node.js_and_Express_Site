@@ -1,6 +1,9 @@
 extends layout
 
 block content
+  h1 There was an error!
+  h2= error.message
+  h3= error.status
   section.page_404
   .container
     .row
@@ -11,7 +14,7 @@ block content
           .contant_box_404
             h3.h2
               | Look like you're lost
-            p the page you are looking for not avaible!
+            p the page you are looking for not available!
             a.link_404(href='/') Go to Home
 
 

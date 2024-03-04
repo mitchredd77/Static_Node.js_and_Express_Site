@@ -32,7 +32,7 @@ article {
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Garamond', serif;
 }
 
 h5{
@@ -151,8 +151,15 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 5px 4px rgba(255, 255, 255, 0.8);
 }
+
+img.thumbnail.shiny-border {
+  border: 1px solid darkblue;
+  box-shadow: 0 0 5px 4px rgba(255, 255, 255, 0.8); 
+}
+
 
 .dev-intro-box {
   padding: 10px;
