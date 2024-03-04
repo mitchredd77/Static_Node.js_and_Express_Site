@@ -23,7 +23,7 @@ block content
           //- The project title for the h5 element's text
 
         .cell
-          a(href='/project/{project.id}')
-            img.thumbnail(src=project.image_urls[0], alt=`${project.project_name} Thumbnail`)
+          a(href=project.github_link)
+            img.thumbnail(src=project.image_urls[0], alt="${project.project_name} picture")
             h5 #{project.project_name}
 

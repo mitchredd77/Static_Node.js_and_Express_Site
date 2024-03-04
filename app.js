@@ -10,7 +10,7 @@ app.set('view engine', 'pug');
 
 // Main index page
 app.get('/', function(req, res, next) {
-    res.render('index', { projects });
+  res.render('index', { projects });
   });
 
 // About page

@@ -10,7 +10,7 @@
                        "Random Numbers",
                        "Functions"
                       ],
-      "live_link": "https://github.com/mitchredd77/random_phrase",
+      "live_link": "https://mitchredd77.github.io/random_phrase",
       "github_link": "https://github.com/mitchredd77/random_phrase",
       "image_urls": [
         "/static/images/Project_1_Pic1_edited.PNG", 
@@ -19,17 +19,80 @@
     },
     {
       "id": "1",
+      "project_name": "Data Pagination and Filtering",
+      "description": "JavaScript places correct amount of students from the data.js file on a page. It also creates the correct number of buttons and has a search bar that searches first and last names.",
+      "technologies": ["Arrays", 
+                       "HTML", 
+                       "CSS",
+                       "Listeners",
+                       "DOM",
+                       "Searches",
+                       "Functions"
+                      ],
+      "live_link": "https://mitchredd77.github.io/Data_Pagination_Filtering",
+      "github_link": "https://github.com/mitchredd77/Data_Pagination_Filtering",
+      "image_urls": [
+        "/static/images/Project_2_Pic1.PNG", 
+        "/static/images/Project_2_Pic2.PNG"
+      ]
+    },
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "An interactive form with field validation.",
+      "technologies": ["Arrays", 
+                       "HTML", 
+                       "CSS",
+                       "Listeners",
+                       "DOM",
+                       "Forms",
+                       "Conditionals",
+                       "Functions"
+                      ],
+      "live_link": "https://mitchredd77.github.io/Interactive_Form",
+      "github_link": "https://github.com/mitchredd77/Interactive_Form",
+      "image_urls": [
+        "/static/images/Project_3_Pic1.PNG", 
+        "/static/images/Project_3_Pic2.PNG"
+      ]
+    },
+    {
+      "id": "3",
       "project_name": "Phrase Hunter",
       "description": "A game where a player attempt to guess the phrase of empty letters on the screen",
-      "technologies": ["Object-Oriented Programming", 
-                       "JavaScript", 
+      "technologies": ["Arrays", 
                        "HTML", 
-                       "CSS"],
-      "live_link": "https://github.com/mitchredd77/JS_Phrase_Hunter/tree/main",
+                       "CSS",
+                       "Listeners",
+                       "DOM",
+                       "Object-Oriented Programming", 
+                       "JavaScript"
+                      ],
+      "live_link": "https://mitchredd77.github.io/JS_Phrase_Hunter/tree/main",
       "github_link": "https://github.com/mitchredd77/JS_Phrase_Hunter.git",
       "image_urls": [
         "/static/images/Project_4_Pic1_edited.PNG", 
         "/static/images/Project_4_Pic2.PNG"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "Public API Requests",
+      "description": "A game where a player attempt to guess the phrase of empty letters on the screen",
+      "technologies": ["JavaScript", 
+                       "HTML", 
+                       "CSS",
+                       "API's",
+                       "Modals",
+                       "Functions",
+                       "Data Cleaning",
+                       "Listeners"
+                       ],
+      "live_link": "https://mitchredd77.github.io/Public_API_Requests/tree/main",
+      "github_link": "https://github.com/mitchredd77/Public_API_Requests.git",
+      "image_urls": [
+        "/static/images/Project_5_Pic1.png", 
+        "/static/images/Project_5_Pic2.png"
       ]
     }
   ]
