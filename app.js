@@ -12,7 +12,7 @@ app.set('view engine', 'pug');
 app.get('/', function(req, res, next) {
   res.render('index', { projects });
   });
-
+app.get("/favicon.ico", (req, res) => res.status(204).end());
 // About page
 app.get('/about', function(req, res, next) {
     res.render('about', { projects });
